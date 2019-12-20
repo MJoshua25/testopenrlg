@@ -1,0 +1,34 @@
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.tabs{
+  text-transform: capitalize !important;
+}
+
+.tabs .tab a{
+    color:#1565c0;
+}
+.tabs .tab a:hover {
+    background-color:#1565c0;
+    color:#ffffff;
+}
+.tabs .tab a:focus {
+  background-color:#1565c0;
+  color:#ffffff;
+}
+.tabs .tab a.active {
+    background-color:#1565c0 !important;
+    color:#ffffff !important;
+}
+.tabs .indicator {
+    background-color:#1565c0 !important;
+}
+
+thead input {
+  width: 100%;
+}
